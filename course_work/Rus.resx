@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="algoinfo" xml:space="preserve">
+    <value>Кроссовер это отличительная черта генетического алгоритма. Он включает в себя перемешивания и сочетания частей хромосом двух родителей для получения хромосом детей. Скажем, что векторы имеют длину l. Кроссовер с двумя точками подразумевает взятие двух чисел c и d и обмен индексами между ними.в случае, если c=d происходит пустой кроссовер (с вероятностью 1/l).</value>
+  </data>
+  <data name="algorithmToolStripMenuItem.Text" xml:space="preserve">
+    <value>про алгоритм</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>случайный</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>с моими точками</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>кроссовер</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>еще раз</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>выход</value>
+  </data>
+  <data name="courseWorkInfoToolStripMenuItem1.Text" xml:space="preserve">
+    <value>про работу</value>
+  </data>
+  <data name="FormName" xml:space="preserve">
+    <value>кроссовер с двумя точками </value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>помощь</value>
+  </data>
+  <data name="infoToolStripMenuItem.Text" xml:space="preserve">
+    <value>инфо</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>введите первую и вторую хромосому (1 и 0, разделенные пробелами)</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>введите длину хромосом и нажмите "ок" для генерации случайных хромосом заданной длины</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>итоговые хромосомы:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>1я и вторая точки</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>выберите тип кроссовера</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>язык</value>
+  </data>
+  <data name="Mainbutton1.Text" xml:space="preserve">
+    <value>работать с алгоритмом</value>
+  </data>
+  <data name="Mainbutton2.Text" xml:space="preserve">
+    <value>анимированная работа алгоритма</value>
+  </data>
+  <data name="mainform" xml:space="preserve">
+    <value>курсовая работа</value>
+  </data>
+  <data name="text1" xml:space="preserve">
+    <value>Для выполнения алгоритма требуется ввести две хромосомы, состоящие из нулей и единиц, разделенных пробелами (или сгенерировать случайные хромосомы путем выбора количества элементов в них и нажатия кнопки "ок"), выбрать способ генерации точек кроссовера (случайные или ввести собственные) и нажать кнопку "кроссовер". Результат появится в нижнем окне. Чтобы выйти из программы требуется нажать "выход". Чтобы очистить поля и повторить алгоритм - нажать "еще раз".</value>
+  </data>
+  <data name="text2" xml:space="preserve">
+    <value>ошибка в введенных точках</value>
+  </data>
+  <data name="text3" xml:space="preserve">
+    <value>хромосома не может быть нулевой длины :(</value>
+  </data>
+  <data name="text4" xml:space="preserve">
+    <value>хромосомы должны быть одной длины :(</value>
+  </data>
+  <data name="text5" xml:space="preserve">
+    <value>что-то не так с форматом введенных данных</value>
+  </data>
+  <data name="text6" xml:space="preserve">
+    <value>в хромосоме могут быть только 0 и 1!</value>
+  </data>
+  <data name="text7" xml:space="preserve">
+    <value>точка не может выходить за границу хромосомы</value>
+  </data>
+  <data name="textinfoform2" xml:space="preserve">
+    <value>Для выполнения алгоритма необкодимо ввести длину требуемых хромосом и нажать "ок", после чего отобразятся рандомно сгенерированные хромосомы (разных цветов для наглядности). При каждом нажатии кнопки "кроссовер" будет выполняться случайный анимированный кроссовер, при нажатии кнопки "еще раз" появится возможность выбрать новую длину и создать новые хромосомы. После нажатия "выход" окно закроется.</value>
+  </data>
+  <data name="workinfo" xml:space="preserve">
+    <value>Данная программа является курсовой работой по предмету Объектно-ориентированное программирование по теме "Реализация алгоритма на С# и его визуализация", выполненной Офицеровой Татьяной, студенткой группы М8О-209Б-19. </value>
+  </data>
+</root>
